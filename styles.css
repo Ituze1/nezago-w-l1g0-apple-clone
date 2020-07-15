@@ -1,4 +1,6 @@
-
+.home{
+    width: 100%;
+}
 .web img{
     position: relative;
     width: 150px;
@@ -41,11 +43,8 @@
 }
 .bottomnav ul{
     display:inline-flex;
-    width: 200px;
-    height: 200px;
-    box-sizing: border-box;
+    width: 100px; 
     list-style: none;
-    box-sizing: border-box;
 }
 .footer2{
     float: right;
