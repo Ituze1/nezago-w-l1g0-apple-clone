@@ -1,5 +1,5 @@
-.home{
-    width: 100%;
+.webhome{
+    background-image: image(you);
 }
 .web img{
     position: relative;
@@ -21,11 +21,27 @@
 .tools{
     float: right;
 }
-#signin{
+.fa-user-circle-o{
     color: black;
+    width: 15px;
 }
 #gethelp{
-    color: green;
+    color: rgb(36, 161, 199);
+    font-size: 20px;
+}
+#close{
+    font-size: 20px;
+    color: rgb(0,0,0);
+}
+.socialmedia{
+    font-size: 20px;
+    padding-right: 0;
+    margin-right: 0;
+    position: relative;
+}
+#twitter{
+    margin-right: 0px;
+    padding-right: 0px;
 }
 #h51{
     display: inline-flex;
@@ -38,12 +54,10 @@
     list-style: none;
     padding: 0
 }
-.mainpage{
-    background-image: image();
-}
+
+
 .bottomnav ul{
-    display:inline-flex;
-    width: 100px; 
+    display: inline-flex;
     list-style: none;
 }
 .footer2{

@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body class="home">
+<body>
+    <div class="webhome">
+    <header class="home">
     <div class="web img">
         <a href="#" title="Wayback Machine home page" id="web1"><img src="./wayback-toolbar-logo.png" alt=""/></a>
     </div>
@@ -20,11 +22,11 @@
     </div>
     <div class="tools">
         <a href="#" title="Sign In" id="signin" id="sign in"><i class="fa fa-user-circle-o" aria-hidden="true"></i></a>
-        <a href="#" title="Get Some help using Wayback machine" id="gethelp"><i class="fa fa-question-circle-o" style="font-size:20px;color:green"></i></a>
-        <a href="#" title="Close the toolbar"><i class="fa fa-times-circle" aria-hidden="true"></i></a>
+        <a href="#" title="Get Some help using Wayback machine" id="gethelp"><i class="fa fa-question-circle-o"></i></a>
+        <a href="#" title="Close the toolbar" id="close"><i class="fa fa-times-circle" aria-hidden="true"></i></a>
         <div class="socialmedia">
-            <a href="#" title="Share on Facebook"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
-            <a href="#" title="Share on Twitter"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+            <a href="#" title="Share on Facebook" id="facebook"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+            <a href="#" title="Share on Twitter" id="twitter"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
         </div>
     </div>
     <!-- nav bar  -->
@@ -47,6 +49,7 @@
             </ul>
         </nav>
     </div>
+    </header>
    <!-- End of nav barr -->
    <!-- section of the page -->
    <div class="mainpage">
@@ -54,14 +57,15 @@
        <h2>Everyone has something to share. See how people are using iPad in their unique ways to add to the world's story.</h2>
        <h3><a href="#">Watch the "Your verse" film and explore stories</a></h3>
    </div>
+   </div>
      <!-- End of section of the page  -->
      <!-- bottom nav barr -->
      <div class="bottomnav">
          <ul>
-             <li><a href="#"><img src="promo_iphone5s.jpg" alt="iphone5s"></a></li>
-             <li><a href="#"><img src="./promo_iphone5c.jpg" alt="iphone5s"></a></li>
-             <li><a href="#"><img src="./promo_30_years.jpg"></a></li>
-             <li><a href="#"><img src="./promo_supplier_responsibility.jpg"></a></li>
+             <li id="iphone5s"><a href="#"><img src="promo_iphone5s.jpg" alt="iphone5s"></a></li>
+             <li id="iphone5c"><a href="#"><img src="./promo_iphone5c.jpg" alt="iphone5s"></a></li>
+             <li id="promo"><a href="#"><img src="./promo_30_years.jpg"></a></li>
+             <li id="responsibility"><a href="#"><img src="./promo_supplier_responsibility.jpg"></a></li>
      </div>
      <!-- end of bottom nav -->
      <!-- footer -->
