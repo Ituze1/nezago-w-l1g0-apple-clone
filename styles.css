@@ -2,28 +2,25 @@
         background: url("./your_verse_hero_2x.jpg");
         background-size: cover;
         background-position: center;
-        -webkit-background-size: cover;
         background-repeat: no-repeat;
         width: 100vw;
-        height:100vh
 }
 body{
-    width: 100%;
-    margin: auto;
-
+    margin: -5px;
 }
 .webimg{
-    position: relative;
+    position: absolute;
     width: 150px;
     height: 30px;
-    margin-left: 0;
-    margin-top: 0;
+    margin-left: 15px;
+    margin-top: 15px;
     float: left;
 }
 .form1{
+    position: relative;
     margin-left: 200px;
-    margin-top: 0;
-    width: 1000px;
+    margin-top: 5px;
+    padding-top: 20px;
     
 }
 #button1{
@@ -46,13 +43,13 @@ body{
 }
 .socialmedia{
     font-size: 20px;
-    padding-right: 0;
-    margin-right: 0;
     position: relative;
 }
+#facebook{
+    margin-right: 5px;
+}
 #twitter{
-    margin-right: 0px;
-    padding-right: 0px;
+    margin-right: -5px;
 }
 nav{
     margin-top: 150px;
@@ -147,21 +144,31 @@ nav input{
     text-decoration: none;
 }
 
-#appleonline{
-    padding: 0;
-    margin: 0;
-}
-
 .footer2{
     float: right;
-    background: green;
-    margin: 0;
+    line-height: 10px;
+    width: auto;
+    margin-top: -100px;
+    margin-bottom: -10px;
     padding: 0;
 }
+.footer2 ul{
+    display: block;
+    width: 600px;
+    margin-top: 0px;
+    font-size: 13px;
+}
 .footer2 ul li{
-
     display: inline-flex;
-    text-decoration: none;
     padding: 0;
+    margin-left: 0;
     list-style: none;
+
+}
+.footer2 ul li a{
+    text-decoration: none;
+    margin-right: 2px;
+    padding-right: 2px;
+    border-right: 2px solid grey;
+    color: rgb(12, 128, 122);
 }
