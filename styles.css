@@ -1,7 +1,18 @@
-.webhome{
-    background-image: image(you);
+.webhome{        
+        background: url("./your_verse_hero_2x.jpg");
+        background-size: cover;
+        background-position: center;
+        -webkit-background-size: cover;
+        background-repeat: no-repeat;
+        width: 100vw;
+        height:100vh
 }
-.web img{
+body{
+    width: 100%;
+    margin: auto;
+
+}
+.webimg{
     position: relative;
     width: 150px;
     height: 30px;
@@ -43,6 +54,63 @@
     margin-right: 0px;
     padding-right: 0px;
 }
+nav{
+    margin-top: 150px;
+    margin-left: 350px;
+    background: rgba(70, 69, 69, 1);
+    display: flex;
+    border-radius: 9px;
+    padding: 2px;
+    margin-right: 300px;
+    margin-bottom: 0px;
+    width: auto;
+    line-height: 20px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    flex: 3;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    margin: 0;
+    line-height: 10px;
+    padding: 20px;
+    flex: auto;
+    text-align: center;
+    border-right: 0.5px solid rgb(44, 42, 42);
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    margin: 0;
+}
+nav ul li:hover{
+    background: rgb(31, 29, 29);
+}
+nav form{ 
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+}
+nav input{
+    width: 100px;
+    height: 40px;
+    flex: 0;
+    background: grey;
+    border-radius: 30px;
+}
+.mainpage{
+    width: 100vw;
+    height: 100vh;
+}
+#cta{
+    background-repeat: no-repeat;
+}
+
 #h51{
     display: inline-flex;
 }
@@ -59,11 +127,39 @@
 .bottomnav ul{
     display: inline-flex;
     list-style: none;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: -90px;
+    padding: 0;
+
 }
+.footer1{
+    display: block;
+    padding-bottom: 0;
+    margin-right: 800px;
+    margin-left: 100px;
+    font-size: 13px;
+    color: grey;
+}
+.footer1 a{
+    color: rgb(0, 102, 128);
+    text-decoration: none;
+}
+
+#appleonline{
+    padding: 0;
+    margin: 0;
+}
+
 .footer2{
     float: right;
+    background: green;
+    margin: 0;
+    padding: 0;
 }
 .footer2 ul li{
+
     display: inline-flex;
     text-decoration: none;
     padding: 0;
