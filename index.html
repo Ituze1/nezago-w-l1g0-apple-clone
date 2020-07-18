@@ -11,24 +11,57 @@
 <body>
     <div class="webhome">
     <header class="home">
-    <div class="webimg">
-        <a href="#" title="Wayback Machine home page" id="web1"><img src="./wayback-toolbar-logo.png" alt=""/></a>
-    </div>
-    <div class="form1">
-        <form action="">
-            <input type="text" value="http://www.apple.com/">
-            <button id="button1">Go</button>
-        </form>
-    </div>
-    <div class="tools">
-        <a href="#" title="Sign In" id="signin" id="sign in"><i class="fa fa-user-circle-o" aria-hidden="true"></i></a>
-        <a href="#" title="Get Some help using Wayback machine" id="gethelp"><i class="fa fa-question-circle-o"></i></a>
-        <a href="#" title="Close the toolbar" id="close"><i class="fa fa-times-circle" aria-hidden="true"></i></a>
-        <div class="socialmedia">
-            <a href="#" title="Share on Facebook" id="facebook"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
-            <a href="#" title="Share on Twitter" id="twitter"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+        <div class="container">
+            <div class="webimg">
+                <a href="#" title="Wayback Machine home page" id="web1"><img src="./wayback-toolbar-logo.png" alt=""/></a>
+            </div>
+            <div class="fcl">
+            <div class="form1">
+                <input type="text" value="http://www.apple.com/">
+                <button id="button1">Go</button>
+            </div>
+            <div class="captures">
+                <ul id="captures">
+                    <li><a href="#" title="See a list of every capture for this URL">132,572 captures</a></li>
+                    <li type="date" onfocus="auto" title="See a list of every capture for this URL">22 Oct 1996-17 jul 2020</li>
+                </ul>
+                <img src="./capture1.png" alt="captures1" title="Explore captures for this URL">
+            </div>
+            <div class="calendar">
+                <ul id="calendarfront">
+                    <li><a href="#" title="01 Feb 2014">FEB</a></li>
+                    <li><a href="#" title="23:51:55 Feb 27, 2014"><i class="fa fa-caret-left" aria-hidden="true"></i></a></li>
+                    <li><a href="#" title="28 Feb 2013">2013</a></li>
+                </ul>
+                <ul id="calendarmiddle">
+                    <li title="You are here: 00:46:10 Mar 01, 2014">MAR</li>
+                    <li title="You are here: 00:46:10 Mar 01, 2014">01</li>
+                    <li title="You are here: 00:46:10 Mar 01, 2014">2014</li>
+                </ul>
+                <ul id="calendarback">
+                    <li><a href="#" title="01 Apr 2014">APR</a></li>
+                    <li><a href="#" title="01:07:51 Mar 02, 2014"><i class="fa fa-caret-right" aria-hidden="true"></i></a></li>
+                    <li><a href="#" title="01 Mar 2015">2015</a></li>
+                </ul>
+            </div>
+            </div>
+            <div class="tsmc">
+                <ul id="tool">
+                    <li><a href="#" title="Sign In" id="signin" id="sign in"><i class="fa fa-user-circle-o" aria-hidden="true"></i></a></li>
+                    <li><a href="#" title="Get Some help using Wayback machine" id="gethelp"><i class="fa fa-question-circle-o"></i></a></li>
+                    <li><a href="#" title="Close the toolbar" id="close"><i class="fa fa-times-circle" aria-hidden="true"></i></a></li>
+                </ul>
+                <ul id="socialmedia">
+                    <li><a href="#" title="Share on Facebook" id="facebook"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+                    <li><a href="#" title="Share on Twitter" id="twitter"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+                </ul>
+                <ul id="aboutcapture">
+                    <li><a href="#"><i class="fa fa-caret-down" aria-hidden="true"></i></a></li>
+                    <li><a href="#">About this capture</a></li>
+                </ul>
+            </div>
+          
         </div>
-    </div>
     <!-- nav bar  -->
     <div>
         <nav>
@@ -43,7 +76,7 @@
                 <li id="support"><a href="#">Support</a></li>
             </ul>
                  <form action="">
-                        <input type="search" tabindex="search">
+                        <input type="search"><i class="fa fa-search" aria-hidden="true"></i>
                     </form>
         </nav>   
     </div>
